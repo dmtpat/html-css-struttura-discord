@@ -11,16 +11,39 @@ body{
 
 header{
     background-color: #add8e6;
+    min-height: 100px;
 }
 
 .boxed{
-    min-width: 450px;
-    height: 30px;
-    margin: 10 auto;
+    max-width: 900px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 35px;
 
 }
 
-.flex_conntainer{
+.flex_container{
     display: flex;
     background-color: #daa520;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100%;
+}
+
+.logo{
+    padding: 10px;
+    width: 20%;
+    border: dashed #000000;
+}
+
+.link{
+    padding: 10px;
+    width: 60%;
+    border: dashed #000000;
+}
+
+.login{
+    padding: 10px;
+    width: 20%;
+    border: dashed #000000;
 }
