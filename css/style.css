@@ -12,11 +12,12 @@ body{
 header{
     background-color: #add8e6;
     min-height: 100px;
+    padding-bottom: 5px;
 }
 
-.boxed{
+.boxed_header{
     max-width: 900px;
-    height: 100px;
+    min-height: 100px;
     margin: 0 auto;
     padding-top: 35px;
 
@@ -24,9 +25,8 @@ header{
 
 .flex_container{
     display: flex;
-    background-color: #daa520;
-    /*justify-content: center;
-    align-items: center;*/
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
@@ -34,16 +34,63 @@ header{
     padding: 10px;
     width: 20%;
     border: dashed #000000;
+    background-color: #daa520;
 }
 
 .link{
     padding: 10px;
     width: 60%;
     border: dashed #000000;
+    background-color: #daa520;
 }
 
 .login{
     padding: 10px;
     width: 20%;
+    border: dashed #000000;
+    background-color: #daa520;
+}
+
+.boxed_section{
+    max-width: 900px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.blue{
+    
+    background-color: #00008B;
+}
+.big_box1{
+    height: 400px;
+    width: 700px;
+    border: dashed #000000;
+    background-color: #EE82EE;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.grey{
+    background-color: #D3D3D3;
+}
+.col_70{
+    background-color: #1E90FF;
+    height: 400px;
+    width: 70%;
+    border: dashed #000000;
+}
+.col_30{
+    background-color: #FFC0CB;
+    height: 400px;
+    width: 30%;
+    border: dashed #000000;
+}
+.square{
+     background-color: #228B22;
+    height: 900px;
+    width: 900px;
     border: dashed #000000;
 }
