@@ -94,3 +94,57 @@ header{
     width: 900px;
     border: dashed #000000;
 }
+
+footer{
+    padding-top:10px;
+    min-height: 100px;
+    background-color: #23272A;
+
+}
+.salmon{
+    background-color: #F08080;
+}
+.col_40{
+    height: 400px;
+    width: 40%;
+    border: dashed #000000;
+}
+.col_60{
+    background-color: #20B2AA;
+    height: 400px;
+    
+}
+.white_border{
+    border: dashed #ffffff;
+    height: 400px;
+    width: 25%;
+}
+
+.flex_footer{
+    background-color: #7FFFD4;
+    padding-top: 15px;
+    max-width: 900px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 21px 0px;
+    justify-content: space-between;
+}
+.spacing_row{
+    border-top: solid 2px #7FFFD4;
+    padding-bottom: 20px;
+}
+
+.pinky{
+    background-color: #FFB6C1;
+}
+
+.f_button{
+    padding: 10px;
+    border: dashed #000000;
+}
+
+.f_logo{
+    padding: 10px;
+   
+    border: dashed #000000;
+}
