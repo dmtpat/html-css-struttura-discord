@@ -4,6 +4,8 @@
     margin: 0;
 }
 
+/*--------------direct tag----------------------*/
+
 body{
     background-color: #222222;
     font-family: sans-serif;
@@ -14,6 +16,59 @@ header{
     min-height: 100px;
     padding-bottom: 5px;
 }
+
+footer{
+    padding-top:10px;
+    min-height: 100px;
+    background-color: #23272A;
+
+}
+
+/*------------colors-----------*/
+.b_white{
+    background-color: #ffffff;
+}
+.b_grey{
+    background-color: #D3D3D3;
+}
+.b_blue{
+    background-color: #00008B;
+}
+.b_gold{
+    background-color: #daa520;
+}
+.b_dark_pink{
+    background-color: #FFC0CB;
+}
+.b_pink{
+    background-color: #EE82EE;
+}
+.b_indigo{
+    background-color: #1E90FF;
+}
+.b_green{
+    background-color: #228B22;
+}
+.b_salmon{
+    background-color: #F08080;
+}
+.b_pinky{
+    background-color: #FFB6C1;
+}
+.b_dark_aqua{
+    background-color: #20B2AA;
+}
+
+/*---------------dashed border---------------*/
+
+.b_gold,.b_green,.b_indigo,.b_dark_pink,.b_pink,.b_pinky,.b_salmon{
+    border: dashed #000000;
+}
+
+.b_dark_aqua{
+    border: dashed #ffffff;
+}
+
 
 .boxed_header{
     max-width: 900px;
@@ -27,28 +82,23 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     width: 100%;
 }
 
 .logo{
     padding: 10px;
     width: 20%;
-    border: dashed #000000;
-    background-color: #daa520;
 }
 
 .link{
     padding: 10px;
     width: 60%;
-    border: dashed #000000;
-    background-color: #daa520;
 }
 
 .login{
     padding: 10px;
     width: 20%;
-    border: dashed #000000;
-    background-color: #daa520;
 }
 
 .boxed_section{
@@ -58,64 +108,35 @@ header{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.blue{
-    
-    background-color: #00008B;
-}
+
 .big_box1{
     height: 400px;
     width: 700px;
-    border: dashed #000000;
-    background-color: #EE82EE;
-}
-
-.white{
-    background-color: #ffffff;
-}
-
-.grey{
-    background-color: #D3D3D3;
 }
 .col_70{
-    background-color: #1E90FF;
     height: 400px;
     width: 70%;
-    border: dashed #000000;
 }
 .col_30{
-    background-color: #FFC0CB;
     height: 400px;
     width: 30%;
-    border: dashed #000000;
 }
 .square{
-     background-color: #228B22;
     height: 900px;
     width: 900px;
-    border: dashed #000000;
 }
 
-footer{
-    padding-top:10px;
-    min-height: 100px;
-    background-color: #23272A;
 
-}
-.salmon{
-    background-color: #F08080;
-}
+
 .col_40{
     height: 400px;
     width: 40%;
-    border: dashed #000000;
 }
 .col_60{
-    background-color: #20B2AA;
-    height: 400px;
+    height: 100%;
     
 }
-.white_border{
-    border: dashed #ffffff;
+.footer_mini_section{
     height: 400px;
     width: 25%;
 }
@@ -134,17 +155,8 @@ footer{
     padding-bottom: 20px;
 }
 
-.pinky{
-    background-color: #FFB6C1;
-}
 
-.f_button{
+.f_buttons{
     padding: 10px;
-    border: dashed #000000;
-}
-
-.f_logo{
-    padding: 10px;
-   
-    border: dashed #000000;
+    min-width: 90px;
 }
